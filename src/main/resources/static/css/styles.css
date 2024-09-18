@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+	display: flex;
+	justify-content: center;
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+header img{
+	margin-right: 25%;
+}
+header h1 {
+	justify-content: center;
+    font-size: 3rem;
+    letter-spacing: 1px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #282828;
+    color: #ddd;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.hero li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+/* Upload Section */
+.upload-section {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.upload-section h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.upload-container {
+    display: inline-block;
+    padding: 20px;
+    border-radius: 8px;
+    border: 2px dashed #007bff;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-upload-label {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.upload-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 25%;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.social-icons img:hover {
+    filter: grayscale(0%);
+}
+
+/* Success and Error Page Handling*/
+
+.success-section, .error-section {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.success-section h2, .error-section h2 {
+    color: #28a745; /* Green for success */
+    font-size: 2.5rem;
+}
+
+.error-section h2 {
+    color: #dc3545; /* Red for error */
+}
+
+.success-section p, .error-section p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+/* styles for the browser header */
+.browser-header {
+    display: flex;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 10px;
+    color: white;
+}
+
+.app-logo {
+    width: 50px;
+    margin-right: 15px;
+}
+
+.app-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+

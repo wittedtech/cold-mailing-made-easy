@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Cold Connect Mail Wizard</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+		<img src="/icons/logo.png" alt="App Logo" class="app-logo">
+        <h1>Cold Connect Mail Wizard</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h2>Automate Your Cold Emails with Ease</h2>
+            <p>Upload your Excel files and send cold emails quickly and efficiently. Follow the guidelines below to ensure smooth usage:</p>
+            <ul>
+                <li>Upload only .xls, .xlsx files</li>
+                <li>Ensure proper formatting of email columns</li>
+                <li>Max file size: 5MB</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- File Upload Section -->
+    <section class="upload-section">
+        <div class="upload-container">
+            <h3>Upload Your Excel File</h3>
+            <form action="/send-mail" method="post" enctype="multipart/form-data">
+                <input type="file" id="file" name="file" accept=".xls,.xlsx" required>
+                <label for="file" class="file-upload-label">Choose File</label>
+                <button type="submit" class="upload-button">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 WittedTech by Harshit Singh</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/wittedtech.ai/" target="_blank"><img src="icons/instagram.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/@wittedtech" target="_blank"><img src="icons/youtube.png" alt="YouTube"></a>
+            <a href="https://github.com/wittedtech" target="_blank"><img src="icons/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/harshitsingh-wittedtech/" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.facebook.com/0Kunwar0/" target="_blank"><img src="icons/facebook.png" alt="Facebook"></a>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>

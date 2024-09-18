@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Mail Sent Successfully</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- <meta http-equiv="refresh" content="10; url='/'"> -->
+</head>
+<body onload="countdown()">
+
+    <!-- Browser Header Section -->
+    <div class="browser-header">
+        <img src="/icons/logo.png" alt="App Logo" class="app-logo">
+        <span class="app-title">Cold Connect Mail Wizard</span>
+    </div>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Mail Sent Successfully</h1>
+    </header>
+
+    <!-- Success Message -->
+    <section class="success-section">
+        <div class="container">
+            <h2>Your Cold Email has been sent!</h2>
+            <p>Thank you for using Cold Connect Mail Wizard. You will be redirected to the main page in <span id="countdown">10</span> seconds.</p>
+            <button onclick="window.location.href='/'" class="back-button">Go Back to Main Page</button>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 WittedTech by Harshit Singh</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/wittedtech.ai/" target="_blank"><img src="icons/instagram.png" alt="Instagram"></a>
+            <a href="https://www.youtube.com/@wittedtech" target="_blank"><img src="icons/youtube.png" alt="YouTube"></a>
+            <a href="https://github.com/wittedtech" target="_blank"><img src="icons/github.png" alt="GitHub"></a>
+            <a href="https://www.linkedin.com/in/harshitsingh-wittedtech/" target="_blank"><img src="icons/linkedin.png" alt="LinkedIn"></a>
+            <a href="https://www.facebook.com/0Kunwar0/" target="_blank"><img src="icons/facebook.png" alt="Facebook"></a>
+        </div>
+    </footer>
+    
+    <script src="/js/script.js"></script>
+</body>
+</html>
