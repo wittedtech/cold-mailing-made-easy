@@ -5,7 +5,7 @@ public enum PersonalDetails {
     GITHUB_PROFILE("https://github.com/wittedtech"),
     PORTFOLIO(""),
     PHONE_NUMBER("7307490600"),
-    EMAIL_ADDRESS("sde.harshit@gmail.com");
+    EMAIL_ADDRESS("sdeharshit@gmail.com");
 
     private final String detail;
 

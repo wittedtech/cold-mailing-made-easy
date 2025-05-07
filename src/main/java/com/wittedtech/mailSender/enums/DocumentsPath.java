@@ -1,7 +1,9 @@
 package com.wittedtech.mailSender.enums;
 
 public enum DocumentsPath {
-	RESUME_HARSHIT_SINGH_JAVA_2_YEAR("Resume/Harshit_Singh_Java_2_Year.pdf");
+//	RESUME_HARSHIT_SINGH_JAVA_2_YEAR("Resume/Harshit_Singh_Java_2_Year.pdf");
+	RESUME_HARSHIT_SINGH_JAVA_3_YEAR("Resume/Harshit_Singh_Java_Springboot_Developer_Resume.pdf");
+	
 	
 	private String filePath;
 	

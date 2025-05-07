@@ -61,7 +61,7 @@ public class EmailServiceImpl implements EmailService{
 			mimeMessageHelper.setText(mailingData.getMessage(),true);
 			
 			// Load the file as a ClassPath resource
-	        ClassPathResource fileResource = new ClassPathResource(DocumentsPath.RESUME_HARSHIT_SINGH_JAVA_2_YEAR.getFilePath());
+	        ClassPathResource fileResource = new ClassPathResource(DocumentsPath.RESUME_HARSHIT_SINGH_JAVA_3_YEAR.getFilePath());
 
 	        // Attach the file
 	        mimeMessageHelper.addAttachment(fileResource.getFilename(), fileResource);

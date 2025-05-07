@@ -27,7 +27,7 @@ public class MailSenderController {
     	boolean isSent = false;
     	List<SendMailDto> extractedMailDataListFromSheet = spreadsheetService.readXLSXFile(dto.getFile());
     	if(!extractedMailDataListFromSheet.isEmpty()) {
-    		//isSent = mailService.mailSend(extractedMailDataListFromSheet);
+    		isSent = mailService.mailSend(extractedMailDataListFromSheet);
     		if(isSent) {
     			return "success";
     		}else {
